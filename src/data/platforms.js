@@ -1,0 +1,16 @@
+export default [
+    { className: 'PlayStation', label: 'PS2', value: 'ps2' },
+    { className: 'PlayStation', label: 'PS3', value: 'ps3' },
+    { className: 'PlayStation', label: 'PS4', value: 'ps4' },
+    { className: 'XBox', label: 'Xbox 360', value: 'xbox360' },
+    { className: 'XBox', label: 'Xbox One', value: 'xboxOne' },
+    { className: 'Nintendo', label: 'GameCube', value: 'gameCube' },
+    { className: 'Nintendo', label: 'DS', value: 'ds' },
+    { className: 'Nintendo', label: 'Wii', value: 'wii' },
+    { className: 'Nintendo', label: '3DS', value: '3ds' },
+    { className: 'Nintendo', label: 'Wii U', value: 'wiiU' },
+    { className: 'Nintendo', label: 'Nintendo Switch', value: 'switch' },
+    { className: 'PlayStation', label: 'Sega Genesis‎', value: 'segaGenesis‎' },
+    { className: 'PlayStation', label: 'Dreamcast', value: 'dreamcast' },
+    { className: 'PC', label: 'PC', value: 'pc' },
+]

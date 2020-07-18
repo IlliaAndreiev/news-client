@@ -1,22 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import Main from './components/Main';
+import Toastr from './components/Toastr';
 
 import {
-  BrowserRouter as Router,
+    BrowserRouter as Router,
 } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Main />
-      </Router>
-    </div>
-  );
+export default () => {
+    return (
+        <div className="App" >
+            <Router>
+                <Header />
+                <Main />
+                <Toastr />
+            </Router>
+        </div>
+    );
 }
-
-export default App;
